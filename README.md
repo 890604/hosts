@@ -1,12 +1,11 @@
 ﻿####Usage
-1. 自動更新方法:在项目页面的右边“Download ZIP”并解压缩，windows管理员权限双击update.bat, Mac/Liux 在终端执行 sudo update.sh，即可完成更新,對應使用restore.bat restore.sh 還原默認hosts
-2. 手動更新方法:到這裏下載[Release](https://github.com/DingSoung/hosts/releases)(windows用户可能需要用专业文本编辑器转换为带windows换行符的格式),再替换本地hosts
-3. 如果hosts失效,可以來本項目下載最新的，到项目页面右边提交issues,如果我没有及时更新，可以到下面"其他hosts"更新
+1. Click “Download ZIP” at right side at project page, unZip and go into the directory
+2. for Windows7 8/8.1 10,right click and run "takeOwn(run as Admin).bat" before run "update.bat". for Linux and Mac,run "update.sh" with root right, for Android and IOS,copy "hosts" to /etc
+3. ues "restore.bat" or "restore.sh" to reset, Android and IOS replace /etc/hosts with "hosts.txt" to reset default
 
 ####Declare
-1. hosts列表来自互联网,感谢他们的无私奉献
-2. 使用该hosts前请自行[百科](http://zh.wikipedia.org/wiki/Hosts%E6%96%87%E4%BB%B6)，明确可能带来的问题，自行承担风险
-3. Google ip资源有限，自己用就好了，不建议大范围散播
+1. hosts url come from the internet, thanks for theries sharing
+2. Be sure you know and take responsibility of the possiable risk,[Wiki](http://zh.wikipedia.org/wiki/Hosts%E6%96%87%E4%BB%B6)，
 
 ####其他hosts
   [imouto.hosts](https://github.com/zxdrive/imouto.host)
